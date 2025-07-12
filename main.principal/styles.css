@@ -10,16 +10,43 @@ body {
   background-size: cover;
   background-position: 0px -90px;
   background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.video-background {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 #center {
-  margin-top: 30px;
+  margin-top: 40px;
   gap: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-items: center;
   text-align: center;
+  z-index: 1;
 }
 
 h4 {
