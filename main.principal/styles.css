@@ -61,6 +61,7 @@ h4 {
   font-size: 18px;
   user-select: none;
   color: rgb(20, 120, 180);
+  text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.2);
 }
 
 img {
@@ -72,11 +73,12 @@ img {
   width: 140px;
   border: solid 8px;
   border-radius: 40px;
-  box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.2);
+  box-shadow: 3px 3px 3px 3px rgba(1, 1, 1, 0.3);
 }
 
 a {
   color: aqua;
+  box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.2);
   background-color: black;
   border: solid 2px;
   border-radius: 10px;
@@ -167,6 +169,7 @@ a:focus {
     font-size: 22px;
     user-select: none;
     color: rgb(20, 120, 180);
+    text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.2);
     width: 100%;
   }
 
@@ -184,13 +187,14 @@ a:focus {
     user-select: none;
     height: 120px;
     width: 120px;
-    border: solid 6px;
+    border: solid 8px;
     border-radius: 30px;
-    box-shadow: 2px 2px 4px rgba(1, 1, 1, 0.3);
+    box-shadow: 3px 3px 3px 3px rgba(1, 1, 1, 0.3);
   }
 
   a {
     color: aqua;
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.2);
     background-color: black;
     border: solid 2px;
     border-radius: 10px;
