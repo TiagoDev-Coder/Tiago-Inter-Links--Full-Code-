@@ -90,6 +90,7 @@ a {
   cursor: pointer;
   user-select: none;
   text-decoration: none;
+  transition: 0.3s;
   opacity: 0.8;
 }
 
@@ -234,6 +235,7 @@ a:focus {
     cursor: pointer;
     user-select: none;
     text-decoration: none;
+    transition: 0.3s;
     opacity: 0.8;
   }
 
