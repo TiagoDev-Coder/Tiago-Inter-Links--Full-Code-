@@ -152,5 +152,49 @@
     </main>
 
     <script src="../main.principal/javascript.js"></script>
+
+    <div class="chat-ai-container">
+      <img
+        src="../assets/Tiago(AI).png"
+        alt="Tiago_AI"
+        class="chat-ai-icon"
+        id="chatAiIcon"
+      />
+      <div class="chat-popup" id="chatAiPopup">
+        <div class="chat-header">
+          <h3>Tiago_AI 🤖</h3>
+          <button
+            id="resetChatBtn"
+            class="reset-chat-btn"
+            title="Limpar Histórico"
+          >
+            🗑
+          </button>
+          <span class="close-btn" id="closeChatBtn">×</span>
+        </div>
+        <div class="chat-window" id="chatWindow"></div>
+        <div class="chat-input-area">
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Digite sua mensagem..."
+          />
+          <button id="sendButton">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="reset-popup-overlay" id="resetPopupOverlay">
+      <div class="reset-popup-content">
+        <h4>Limpar Histórico de Conversa?</h4>
+        <p>Tem certeza de que deseja apagar todo o histórico de mensagens?</p>
+        <div class="reset-popup-buttons">
+          <button id="cancelResetBtn" class="cancel-btn">Não</button>
+          <button id="confirmResetBtn" class="confirm-btn">Sim</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../chat-ai/chat.js"></script>
   </body>
 </html>

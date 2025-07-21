@@ -29,7 +29,7 @@ window.addEventListener(
       "loading failed", // Falha de carregamento
       "syntaxerror", // Erro de sintaxe (geralmente em scripts)
       "uncaught (in promise)", // Erro em promessas não tratadas (pode vir de fetches)
-      "null",
+      "null", // Elemento Não Definido
       "undefined", // Erros de referência nula/indefinida (se ocorrerem ao carregar algo)
       "typeerror", // Erros de tipo
       "referenceerror", // Erros de referência
