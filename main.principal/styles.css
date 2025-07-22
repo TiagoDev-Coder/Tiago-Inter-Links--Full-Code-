@@ -97,7 +97,7 @@ a {
 }
 
 a:hover {
-  color: rgb(180, 20, 20);
+  color: rgb(180, 10, 20);
   padding: 4px 12px;
   opacity: 0.8;
 }
@@ -129,6 +129,20 @@ a:focus {
   color: black;
 }
 
+.NavButtonAI {
+  position: relative;
+  margin-top: 0px;
+  padding: 4px 12px;
+  border: solid 3px;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: rgb(140, 140, 140);
+  opacity: 0.8;
+  color: black;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 .NavButton:hover {
   color: rgb(20, 180, 50);
   padding: 4px 12px;
@@ -136,6 +150,18 @@ a:focus {
 }
 
 .NavButton:focus {
+  color: rgb(40, 220, 60);
+  padding: 5px 15px;
+  opacity: 0.6;
+}
+
+.NavButtonAI:hover {
+  color: rgb(20, 180, 50);
+  padding: 4px 12px;
+  opacity: 0.8;
+}
+
+.NavButtonAI:focus {
   color: rgb(40, 220, 60);
   padding: 5px 15px;
   opacity: 0.6;
