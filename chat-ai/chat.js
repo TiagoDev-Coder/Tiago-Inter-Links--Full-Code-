@@ -447,7 +447,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "")
+      .replace(/[.,\/#!?$%\^&\*;:{}=\-_`~()]/g, "")
       .trim();
 
     const response = aiKnowledgeBase[cleanMessage];
